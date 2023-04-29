@@ -55,24 +55,38 @@ const Timeline = () => {
 
   // snap back to beginning of scroll when window is resized
   // avoids a bug where content is covered up if coming from smaller screen
-  useEffect(() => {
-    const handleResize = () => {
-      scroll(carouselRef.current, 0);
-    };
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     scroll(carouselRef.current, 0);
+  //   };
 
-    window.addEventListener("resize", handleResize);
-  }, []);
+  //   window.addEventListener("resize", handleResize);
+  // }, []);
 
   return (
     <Section id="about">
       <SectionDivider divider colorAlt />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established
-        developers to take their development skills to the next level and build
-        awesome apps.
+        Hi, I'm Siddharth Agrawal, a frontend developer with a passion for
+        crafting beautiful, responsive and engaging user experiences. With
+        almost 2 years of experience in the industry, I specialize in using
+        cutting-edge technologies such as
+        <span style={{ color: "white" }}>
+          {" "}
+          ReactJS, NextJS, JavaScript and many more{" "}
+        </span>{" "}
+        to create scalable and performant web applications.
       </SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+
+      <SectionText>
+        I'm a strong believer in the power of collaboration and am always eager
+        to work with designers, developers and other stakeholders to bring
+        projects to life. Whether it's developing new features, improving code
+        quality or optimizing performance, I thrive on solving complex problems
+        and delivering high-quality results.
+      </SectionText>
+      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -140,7 +154,7 @@ const Timeline = () => {
             </CarouselButton>
           );
         })}
-      </CarouselButtons>
+      </CarouselButtons> */}
     </Section>
   );
 };
