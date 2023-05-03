@@ -1,19 +1,32 @@
 export const projects = [
   {
     title: "Drawing App",
-    description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: "/images/1.png",
-    tags: ["NextJS", "Typescript", "TailwindCSS", "Canvas", "NX", "Figma"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    description: `This drawing website is built using modern web development 
+    technologies such as NextJS, tailwindCSS, Typescript and Figma. 
+    Its unique monorepo setup allows for efficient and streamlined development. 
+  
+    The site allows choosing from different layouts, draw, erase, export the image with various options, 
+    save progress and many more`,
+    image: "/images/drawing.png",
+    tags: [
+      "NextJS",
+      "Typescript",
+      "TailwindCSS",
+      "Canvas",
+      "NX",
+      "Figma",
+      "Supabase",
+    ],
+    source:
+      "https://github.com/sidagwl5/Monorepo-projects/tree/development/apps/drawing-app",
+    visit: "https://on-canvas.vercel.app/",
     id: 0,
   },
   {
     title: "StudyHub",
     description:
       "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: "/images/2.png",
+    image: "/images/study-hub.png",
     tags: ["ReactJS", "ExpressJS", "Javascript", "MongoDB", "Redux"],
     source: "https://google.com",
     visit: "https://google.com",
@@ -21,19 +34,27 @@ export const projects = [
   },
   {
     title: "UI/UX Project",
-    description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: "/images/3.jpg",
+    description: `The project is a responsive website designed using Figma for a social media marketing company. 
+      The aim is to provide an engaging experience for visitors. 
+      The design has different sections such as About Us, Services, Pricing and Contact Us. 
+      It is fully responsive, ensuring that it looks great on all devices.`,
+    image: "/images/figma.png",
     tags: ["Figma", "Noun Project"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    source:
+      "https://www.figma.com/file/FmLUE2F7wEfrmdCNRaVkzf/smm?node-id=820-2&t=l6nIq4hZAtT1bBx0-0",
+    visit:
+      "https://www.figma.com/proto/FmLUE2F7wEfrmdCNRaVkzf/smm?node-id=965-451&scaling=scale-down&page-id=820%3A2&starting-point-node-id=965%3A451",
     id: 2,
   },
   {
-    title: "Movie Website",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: "/images/4.jpg",
+    title: "Movie Site",
+    description: `This project was created using ReactJS, Firebase, JavaScript and MobX. 
+      It has an intuitive and visually appealing design, 
+      with a user-friendly interface. 
+      The site allows Google-sign, upload and download movies,
+      dedicated profile, a movie place, 
+      a dedicated movie details page containing download link, and many more.`,
+    image: "/images/movie-site.png",
     tags: ["ReactJS", "Firebase", "Mobx", "Javascript"],
     source: "https://google.com",
     visit: "https://google.com",
