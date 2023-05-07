@@ -63,6 +63,7 @@ const Technologies = () => (
             "CSS",
             "Redux",
             "React-Query",
+            "Frontend-SEO",
           ].map((title) => (
             <Tag title={title} />
           ))}
@@ -83,11 +84,18 @@ const Technologies = () => (
             gap: "10px",
           }}
         >
-          {["ExpressJS", "NodeJS", "NestJS", "MongoDB", "Postgres", "API"].map(
-            (title) => (
-              <Tag title={title} />
-            )
-          )}
+          {[
+            "ExpressJS",
+            "NodeJS",
+            "NestJS",
+            "MongoDB",
+            "Postgres",
+            "API",
+            "Firebase",
+            "Supabase",
+          ].map((title) => (
+            <Tag title={title} />
+          ))}
         </div>
       </ListItem>
       <ListItem>
@@ -146,7 +154,6 @@ const Technologies = () => (
         >
           {[
             "Nx-Monorepo",
-            "Firebase",
             "VSCode",
             "Git/Github",
             "Git/Gitlab",

@@ -7,6 +7,7 @@ import {
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
+import Link from "next/link";
 
 const Hero = (props) => (
   <>
@@ -20,7 +21,10 @@ const Hero = (props) => (
           I am a frontend developer who is also well versed with backend
           technology and UI/UX.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+
+        <Link href="#about">
+          <Button onClick={props.handleClick}>Learn More</Button>
+        </Link>
       </LeftSection>
     </Section>
   </>
