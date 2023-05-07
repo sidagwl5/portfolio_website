@@ -13,7 +13,7 @@ export const Layout = ({ children }) => {
           position: "relative",
           display: "flex",
           flexDirection: "column",
-          gap: "15vh",
+          gap: "12vh",
           width: "100%",
           alignItems: "center",
         }}

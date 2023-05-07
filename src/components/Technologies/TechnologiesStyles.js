@@ -37,6 +37,10 @@ export const List = styled.ul`
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 
+  @media ${(props) => props.theme.breakpoints.lg} {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   @media ${(props) => props.theme.breakpoints.md} {
     gap: 24px;
   }
@@ -53,7 +57,6 @@ export const ListContainer = styled.div`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
-    margin-left: 18px;
   }
 `;
 
@@ -95,18 +98,16 @@ export const ListParagraph = styled.p`
 `;
 
 export const ListItem = styled.li`
-  max-width: 320px;
+  width: 100%;
   display: flex;
   flex-direction: column;
-
-  @media ${(props) => props.theme.breakpoints.md} {
-    max-width: 203px;
-  }
+  gap: 4px;
+  padding-right: 40px;
+  border-right: 1px rgba(255, 255, 255, 0.2) solid;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     margin-bottom: 14px;
-    max-width: 320px;
-    flex-direction: row;
+    max-width: 400px;
   }
 `;
 

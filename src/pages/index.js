@@ -17,7 +17,7 @@ const Home = () => {
       <Timeline />
       <Projects />
       <Technologies />
-      <Acomplishments />
+      {/* <Acomplishments /> */}
     </Layout>
   );
 };

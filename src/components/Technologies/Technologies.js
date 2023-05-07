@@ -1,5 +1,5 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiFirebase, DiReact, DiZend, DiJavascript1 } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -13,6 +13,20 @@ import {
   ListParagraph,
   ListTitle,
 } from "./TechnologiesStyles";
+import { RiToolsFill } from "react-icons/ri";
+
+const Tag = ({ title }) => (
+  <div
+    style={{
+      padding: "6px 12px",
+      borderRadius: "30px",
+      border: "2px rgba(208,187,87, 0.5) solid",
+      fontSize: "14px",
+    }}
+  >
+    {title}
+  </div>
+);
 
 const Technologies = () => (
   <Section id="tech">
@@ -30,6 +44,29 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
         </ListContainer>
+
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "10px",
+          }}
+        >
+          {[
+            "ReactJS",
+            "NextJS",
+            "AstroJS",
+            "StoryBook",
+            "MUI",
+            "TailwindCSS",
+            "HTML",
+            "CSS",
+            "Redux",
+            "React-Query",
+          ].map((title) => (
+            <Tag title={title} />
+          ))}
+        </div>
       </ListItem>
       <ListItem>
         <picture>
@@ -38,6 +75,20 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
         </ListContainer>
+
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "10px",
+          }}
+        >
+          {["ExpressJS", "NodeJS", "NestJS", "MongoDB", "Postgres", "API"].map(
+            (title) => (
+              <Tag title={title} />
+            )
+          )}
+        </div>
       </ListItem>
       <ListItem>
         <picture>
@@ -46,6 +97,69 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
         </ListContainer>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "10px",
+          }}
+        >
+          {["Figma"].map((title) => (
+            <Tag title={title} />
+          ))}
+        </div>
+      </ListItem>
+
+      <ListItem>
+        <picture>
+          <DiJavascript1 size="2.5rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Languages</ListTitle>
+        </ListContainer>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "10px",
+          }}
+        >
+          {["Javascript", "Typescript", "Solidity"].map((title) => (
+            <Tag title={title} />
+          ))}
+        </div>
+      </ListItem>
+
+      <ListItem>
+        <picture>
+          <RiToolsFill size="2.3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Other Tools</ListTitle>
+        </ListContainer>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "10px",
+          }}
+        >
+          {[
+            "Nx-Monorepo",
+            "Firebase",
+            "VSCode",
+            "Git/Github",
+            "Git/Gitlab",
+            "Heroku",
+            "Netlify",
+            "Vercel",
+            "Postman",
+            "JIRA",
+            "Asana",
+          ].map((title) => (
+            <Tag title={title} />
+          ))}
+        </div>
       </ListItem>
     </List>
   </Section>
