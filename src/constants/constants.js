@@ -24,12 +24,15 @@ export const projects = [
   },
   {
     title: "StudyHub",
-    description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    description: `The StudyHub is built using MERN stack and Redux for efficient state management. 
+      The platform has two roles: normal user and admin. 
+      As a user, one can upload and download notes, set reminders. 
+      An admin can approve or decline notes, perform actions on other users, and post blogs.
+      Such features ensure easy note sharing and efficient administration.`,
     image: "/images/study-hub.png",
     tags: ["ReactJS", "ExpressJS", "Javascript", "MongoDB", "Redux"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    source: "https://github.com/sidagwl5/StudyHub",
+    visit: "https://study-hub-silk.vercel.app/",
     id: 1,
   },
   {
@@ -55,9 +58,9 @@ export const projects = [
       dedicated profile, a movie place, 
       a dedicated movie details page containing download link, and many more.`,
     image: "/images/movie-site.png",
-    tags: ["ReactJS", "Firebase", "Mobx", "Javascript"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    tags: ["ReactJS", "Firebase", "Mobx", "Javascript", "CSS"],
+    source: "https://github.com/sidagwl5/Movie-Site",
+    visit: "https://movie-ten-app.vercel.app/",
     id: 3,
   },
 ];

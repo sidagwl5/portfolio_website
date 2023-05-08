@@ -30,8 +30,8 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en-GB">
+        <title>Siddharth Agrawal - Frontend Developer Portfolio</title>
         <Head>
-          <title>Siddharth Agrawal - Frontend Developer Portfolio</title>
           <meta
             name="title"
             content="Siddharth Agrawal - Frontend Developer Portfolio"

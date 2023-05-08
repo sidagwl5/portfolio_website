@@ -30,9 +30,11 @@ export const Div2 = styled.div`
   display: flex;
   flex: 1;
   align-items: center;
+  gap: 8px;
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
+    justify-content: center;
   }
 `;
 export const Div3 = styled.div`

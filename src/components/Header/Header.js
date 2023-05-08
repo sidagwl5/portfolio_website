@@ -13,7 +13,15 @@ import {
 } from "./HeaderStyles";
 
 const Header = () => (
-  <Container>
+  <Container
+    style={{
+      // position: "sticky",
+      // padding: "2rem 0 !important",
+      top: 0,
+      background: "#0F1624",
+      zIndex: 99999,
+    }}
+  >
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
