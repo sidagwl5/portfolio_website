@@ -40,6 +40,13 @@ export default class MyDocument extends Document {
             name="description"
             content="Explore the portfolio of Siddharth Agrawal, a frontend developer with expertise in creating responsive and engaging websites using HTML, CSS, JavaScript, and React. Discover his projects and skills in web development and design. Get in touch for collaborations and web development services."
           />
+          <meta
+            property="og:image"
+            content="https://firebasestorage.googleapis.com/v0/b/monorepo-projects.appspot.com/o/Portfolio.PNG?alt=media"
+          />
+          <meta property="og:image:width" content="1080" />
+          <meta property="og:image:height" content="720" />
+
           <link
             href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
             rel="stylesheet"
