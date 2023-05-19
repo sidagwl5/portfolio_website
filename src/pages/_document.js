@@ -44,6 +44,10 @@ export default class MyDocument extends Document {
             property="og:image"
             content="https://firebasestorage.googleapis.com/v0/b/monorepo-projects.appspot.com/o/Portfolio.PNG?alt=media"
           />
+          <meta
+            property="og:image:secure_url"
+            content="https://firebasestorage.googleapis.com/v0/b/monorepo-projects.appspot.com/o/Portfolio.PNG?alt=media"
+          />
           <meta property="og:image:width" content="1080" />
           <meta property="og:image:height" content="720" />
 
