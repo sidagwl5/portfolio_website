@@ -64,7 +64,7 @@ export const freelanceProjects = [
     incorporates web3login for whitelisted addresses, user and exchange viewing capabilities, 
     and CRUD operations for indicators and strategies. It's built using Next.js, Tailwind CSS, 
     React Query, TypeScript etc to provide a seamless and efficient user experience.`,
-    image: "/images/admin.PNG",
+    image: "/images/admin1.png",
     tags: [
       "NextJS",
       "Typescript",
@@ -84,7 +84,7 @@ export const freelanceProjects = [
     to enroll their kids in these programs. The platform also includes an admin panel to monitor and 
     manage all activities. The project utilizes a stack consisting of MERN, 
     JavaScript, MUI, and Google Maps to deliver a robust and user-friendly solution`,
-    image: "/images/dwul.png",
+    image: "/images/dwul1.png",
     tags: [
       "MERN",
       "Javascript",
@@ -103,7 +103,7 @@ export const freelanceProjects = [
       Tailwind CSS, React Query, and TypeScript,
       this project leverages modern web technologies to provide a seamless and 
       efficient experience for both clients and developers.`,
-    image: "/images/developer.png",
+    image: "/images/developer1.png",
     tags: ["NextJS", "Javascript", "MUI", "AWS", "MERN"],
     visit: "https://1-hour-developer.vercel.app/",
     id: 2,
