@@ -8,15 +8,7 @@ export const projects = [
     The site allows choosing from different layouts, draw, erase, export the image with various options, 
     save progress and many more`,
     image: "/images/drawing.png",
-    tags: [
-      "NextJS",
-      "Typescript",
-      "TailwindCSS",
-      "Canvas",
-      "NX",
-      "Figma",
-      "Supabase",
-    ],
+    tags: ["NextJS", "Typescript", "TailwindCSS", "NX", "Figma", "Supabase"],
     source:
       "https://github.com/sidagwl5/Monorepo-projects/tree/development/apps/drawing-app",
     visit: "https://on-canvas.vercel.app/",
@@ -24,13 +16,13 @@ export const projects = [
   },
   {
     title: "StudyHub",
-    description: `The StudyHub is built using MERN stack and Redux for efficient state management. 
+    description: `This fullstack project is built using MERN stack and Redux for efficient state management. 
       The platform has two roles: normal user and admin. 
       As a user, one can upload and download notes, set reminders. 
       An admin can approve or decline notes, perform actions on other users, and post blogs.
       Such features ensure easy note sharing and efficient administration.`,
     image: "/images/study-hub.png",
-    tags: ["ReactJS", "ExpressJS", "Javascript", "MongoDB", "Redux"],
+    tags: ["ReactJS", "ExpressJS", "Javascript", "MongoDB", "Redux", "NodeJS"],
     source: "https://github.com/sidagwl5/StudyHub",
     visit: "https://study-hub-silk.vercel.app/",
     id: 1,
@@ -62,6 +54,52 @@ export const projects = [
     source: "https://github.com/sidagwl5/Movie-Site",
     visit: "https://movie-ten-app.vercel.app/",
     id: 3,
+  },
+];
+
+export const freelanceProjects = [
+  {
+    title: "Admin Panel",
+    description: `The project developed for a startup is a comprehensive management tool that 
+    incorporates web3login for whitelisted addresses, user and exchange viewing capabilities, 
+    and CRUD operations for indicators and strategies. It's built using Next.js, Tailwind CSS, 
+    React Query, TypeScript etc to provide a seamless and efficient user experience.`,
+    image: "/images/admin.PNG",
+    tags: [
+      "NextJS",
+      "Typescript",
+      "TailwindCSS",
+      "MUI",
+      "Web3Modal",
+      "MongoDB",
+      "React-Query",
+    ],
+
+    visit: "https://panther-admin-panel.vercel.app/",
+    id: 0,
+  },
+  {
+    title: "1Hr Developer",
+    description: `This full-stack project is a platform that facilitates the connection between clients and developers,
+     allowing clients to hire developers on a per-hour basis. Developed using Next.js,
+      Tailwind CSS, React Query, and TypeScript,
+      this project leverages modern web technologies to provide a seamless and 
+      efficient experience for both clients and developers.`,
+    image: "/images/developer.png",
+    tags: ["NextJS", "Javascript", "MUI", "AWS", "Redux", "MongoDB", "NodeJS"],
+    visit: "https://1-hour-developer.vercel.app/",
+    id: 2,
+  },
+  {
+    title: "Dwul",
+    description: `The full-stack project is a platform that enables providers to create programs and allows parents 
+    to enroll their kids in these programs. The platform also includes an admin panel to monitor and 
+    manage all activities. The project utilizes a stack consisting of MERN, 
+    JavaScript, MUI, and Google Maps to deliver a robust and user-friendly solution`,
+    image: "/images/dwul.png",
+    tags: ["MERN", "Javascript", "MUI", "Google Maps", "React-Query"],
+    visit: "https://dwulfrontend-dot-dwul-io.uc.r.appspot.com/",
+    id: 2,
   },
 ];
 
