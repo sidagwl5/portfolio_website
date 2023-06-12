@@ -47,13 +47,19 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://google.com">
+      <SocialIcons target="_blank" href="https://github.com/sidagwl5">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://google.com">
+      <SocialIcons
+        target="_blank"
+        href="https://www.linkedin.com/in/siddharth-agrawal-3ab8a1155"
+      >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://google.com">
+      <SocialIcons
+        target="_blank"
+        href="https://www.instagram.com/sasiddharth7/"
+      >
         <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>
